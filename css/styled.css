@@ -285,7 +285,7 @@ article>section:nth-child(4) {
     flex-basis: 65%;
     padding-left: 1.85em;
     color: #fff;
-    font-size: 75px;
+    font-size: 60px;
 }
 
 /*Section 5*/
@@ -414,12 +414,23 @@ footer {
 }
 
 
-@media screen and (min-width:1200px) and (max-width:1600px){
+@media screen and (min-width:1200px) and (max-width:1599px){
     .button {
         width: 11%;
-       
-      }
 
+      }
+      span {
+        font-size: 44px;
+      }
+      .skill_box {
+        padding: 20px 0px 35px 0px;
+      }
+      .subtitled {
+        font-size: 93px;
+      }
+      #section2 p {
+        font-size: 41px;
+      }
 }
 
 @media screen and (min-width:980px) and (max-width:1199px) {
@@ -432,15 +443,37 @@ footer {
 @media screen and (min-width:980px) and (max-width:1199px) {
 
     #section1 h1 {
-        font-size: 5.85rem;
+        font-size: 8.85rem;
     }
 
     #section1 h2 {
-        font-size: 55px;
-   
+        font-size: 60px;
       }
       .button {
-        padding: 6px 23px 5px 18px;
-        font-size: 40px;
+        width: 14%;
+      }
+      .subtitled {
+        margin-bottom: 20px;
+        font-size: 62px;
+      }
+      #section2 p {
+        font-size: 38px;
+      }
+      .imagen-circular {
+        width: 50px;
+        height: 40px;
+      }
+
+      .skill_box {
+        padding: 20px 0px 35px 0px;
+      }
+      span {
+        font-size: 36px;
+        font-weight: bolder;
+
+      }
+
+      .col-input input {
+        max-width: 232px;
       }
 }
