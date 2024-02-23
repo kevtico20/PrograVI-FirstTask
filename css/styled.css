@@ -287,6 +287,8 @@ article>section:nth-child(4) {
     font-size: 30px;
 }
 
+
+
 /*Section 5*/
 
 article>section:nth-child(5) {
@@ -411,22 +413,11 @@ footer {
 
 
 @media screen and (min-width:1200px) and (max-width:1599px){
-    .button {
-        width: 11%;
-
-      }
-      span {
-        font-size: 44px;
-      }
+  
       .skill_box {
-        padding: 20px 0px 35px 0px;
+        padding: 20px 20px 35px 20px;
       }
-      .subtitled {
-        font-size: 92px;
-      }
-      #section2 p {
-        font-size: 41px;
-      }
+  
 }
 
 @media screen and (min-width:980px) and (max-width:1199px) {
@@ -439,21 +430,21 @@ footer {
 @media screen and (min-width:980px) and (max-width:1199px) {
 
     #section1 h1 {
-        font-size: 8.85rem;
+        font-size: 3.85rem;
     }
 
     #section1 h2 {
-        font-size: 60px;
+        font-size: 24px;
       }
       .button {
         width: 14%;
       }
       .subtitled {
         margin-bottom: 20px;
-        font-size: 62px;
+        font-size: 21px;
       }
       #section2 p {
-        font-size: 38px;
+        font-size: 14px;
       }
       .imagen-circular {
         width: 50px;
@@ -464,11 +455,21 @@ footer {
         padding: 20px 0px 35px 0px;
       }
       span {
-        font-size: 36px;
+        font-size: 13px;
         font-weight: bolder;
 
       }
       .col-input input {
-        max-width: 232px;
+        max-width: 230px;
       }
+      #section4 div {
+        font-size: 22px;
+    }
+
+    #section4 h2{
+        font-size: 35px;
+    }
+    label {
+        font-size: 18px;
+    }
 }
