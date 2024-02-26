@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Información Personal</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div id="navigationBar" class="container">
+        <p>Tarea Programación 4</p>
+        <nav>
+          <ul>
+            <li><a href="/">Inicio</a></li>
+            <li><a href="#aboutUsSection">Sobre nosotros</a></li>
+            <li><a href="#skillsSection">Habilidades</a></li>
+            <li><a href="#worksSection">Trabajos</a></li>
+            <li><a href="#contactSection">Contacto</a></li>
+            <li>
+              <a href="index.html">
+                <img src="media/translate_icon_white.png" alt="English" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="homeSection">
+      <div class="container">
+        <h1>Explore nuestros trabajos!</h1>
+        <p>
+          "Somos un equipo apasionado de tres personas, unidos por nuestra
+          dedicación a la excelencia creativa e innovación. En nuestro
+          portafolio te invitamos a explorar una muestra de nuestro trabajo
+          colaborativo en diversas áreas creativas. Con una combinación única de
+          habilidades y perspectivas, estamos listos para llevar tus ideas al
+          siguiente nivel."
+        </p>
+        <button><a href="#contactSection">Contacto</a></button>
+      </div>
+    </section>
+
+    <section id="aboutUsSection">
+      <div class="container">
+        <div class="us">
+          <h3 class="persons">
+            <img src="/media/userIcon.svg" alt="Icono de usuario" />
+            Kevin Fallas
+          </h3>
+          <p>
+            ¡Hola! Soy estudiante de 24 años de la Universidad Nacional de mi
+            país en mi tercer año. Apasionado por la programación y el
+            aprendizaje continuo. Me encanta explorar nuevas ideas y caminos
+            para desarrollarme tanto personal como profesionalmente. Soy un
+            entusiasta del emprendimiento y busco constantemente oportunidades
+            para aplicar mis habilidades y conocimientos en proyectos
+            innovadores.
+          </p>
+        </div>
+
+        <div class="us">
+          <h3 class="persons">
+            <img src="/media/userIcon.svg" alt="Icono de usuario" />
+            Allan Vargas
+          </h3>
+          <p>
+            Saludos, soy estudiante de ingeniería informática en la Universidad
+            Nacional de Costa Rica. A lo largo de mi trayectoria académica, he adquirido una
+            amplia gama de experiencias relacionadas con mi campo. Desde abordar
+            proyectos altamente complejos hasta perfeccionar mis habilidades
+            profesionales, he encontrado continuas oportunidades de superación y
+            crecimiento personal.
+          </p>
+        </div>
+
+        <div class="us">
+          <h3 class="persons">
+            <img src="/media/userIcon.svg" alt="Icono de usuario" />
+            Luis Vargas
+          </h3>
+          <p>
+            ¡Hola! Soy estudiante de tercer año de Ingenieria en Sistemas de la
+            Universidad Nacional de Costa Rica, Apasionado por la tecnología
+            desde joven, me especializo en desarrollo de software, diseño de
+            sistemas y gestión de proyectos. Mi objetivo es aplicar mis
+            habilidades para crear soluciones innovadoras que impacten
+            positivamente en la sociedad. <br />
+            Busco Chamba!!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skillsSection">
+      <div class="container">
+        <h2>Habilidades</h2>
+        <div class="skillContainer">
+          <div class="skill">
+            <img class="imgPerson" src="/media/kevinPhoto.jpg" alt="" />
+            <div class="listContainer">
+              <ul class="list1">
+                <li>C++</li>
+                <li>Java</li>
+                <li>HTML</li>
+              </ul>
+              <ul class="list2">
+                <li>React</li>
+                <li>CSS</li>
+                <li>Tailwindcss</li>
+              </ul>
+            </div>
+          </div>
+          <div class="skill">
+            <img class="imgPerson" src="/media/allanPhoto.jpeg" alt="" />
+            <div class="listContainer">
+              <ul class="list1">
+                <li>C++</li>
+                <li>Java</li>
+                <li>HTML</li>
+              </ul>
+              <ul class="list2">
+                <li>CSS</li>
+                <li>JPA</li>
+                <li>Oracle</li>
+              </ul>
+            </div>
+          </div>
+          <div class="skill">
+            <img class="imgPerson" src="/media/luisPhoto.jpg" alt="" />
+            <div class="listContainer">
+              <ul class="list1">
+                <li>C++</li>
+                <li>Java</li>
+                <li>Kotlin</li>
+              </ul>
+              <ul class="list2">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>XML</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="worksSection">
+      <h2>Trabajos</h2>
+      <div class="workContainer">
+        <div class="works">
+          <h3>Aplicaciones que hemos desarrollado</h3>
+          <ul>
+            <h4>Proyectos básicos:</h4>
+            <li>Juego multijugador Tic Tac Toe</li>
+            <li>Sokoban</li>
+            <h4>Proyectos medios:</h4>
+            <li>Sistema de reservaciones</li>
+            <li>Juego Defender</li>
+            <li>Juego Monopoly</li>
+            <li>Juego Scrabble</li>
+            <h4>Proyectos avanzados</h4>
+            <li>Sistema de viajes y tours</li>
+            <li>Sistema Clínico</li>
+          </ul>
+        </div>
+        <div class="imgWorkContainer"></div>
+      </div>
+    </section>
+
+    <section id="contactSection" class="container">
+      <h2>Contacto</h2>
+      <form>
+        <div class="data">
+          <div>
+            <label for="name">Nombre:</label>
+            <input
+              type="text"
+              id="txtName"
+              name="name"
+              placeholder="Ingrese su nombre"
+              required
+            />
+          </div>
+          <div>
+            <label for="phone">Teléfono:</label>
+            <input
+              type="text"
+              id="txtPhone"
+              name="phone"
+              placeholder="Ingrese su teléfono"
+            />
+          </div>
+          <div>
+            <label for="mail">Correo Electrónico:</label>
+            <input
+              type="text"
+              id="txtEmail"
+              name="email"
+              placeholder="Ingrese su correo"
+              required
+            />
+          </div>
+        </div>
+        <div class="data">
+          <label for="message">Mensaje:</label>
+          <textarea
+            id="txtMessage"
+            name="message"
+            placeholder="Ingrese su mensaje"
+            required
+          ></textarea>
+        </div>
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+
+    <footer>
+      <div id="copyright">
+        <div id="footPage" class="container">
+          <a href="#" target="_blank"
+            ><img src="./media/facebookIcon.svg" alt=""
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="./media/twitterIcon.svg" alt=""
+          /></a>
+          <a href="#" target="_blank"
+            ><img src="./media/instagramIcon.svg" alt=""
+          /></a>
+        </div>
+        <small>&copy Derechos Reservados</small>
+      </div>
+    </footer>
+  </body>
+</html>
