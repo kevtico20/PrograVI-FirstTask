@@ -37,7 +37,7 @@ ul {
   list-style: none;
 }
 
-button {
+#homeSection a {
   font-size: 1.5em;
   font-weight: bold;
   background-color: #3b04bb;
@@ -49,14 +49,11 @@ button {
   cursor: pointer;
   width: 200px;
   height: 55px;
-}
-
-button a {
   color: #ffffff;
   text-decoration: none;
 }
 
-button:hover {
+#homeSection a:hover {
   background-color: #23036e;
   color: #fff;
 }
@@ -492,7 +489,7 @@ footer {
   }
 
   .imgWorkContainer {
-    background-image: url("/media/workImage.png");
+    background-image: url("../media/workImage.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
